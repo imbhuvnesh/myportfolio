@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/papercss@1.7.0/dist/paper.css"
+    />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        background-color: rgb(197, 195, 195);
+      }
+      .skillset {
+        padding-left: 70px;
+        margin: 0 50px 0 50px;
+      }
+      .contactbtn div{
+        margin: 10px 50px 10px 50px;
+      }
+      .skillset div {
+        margin: 10px 50px 30px 50px;
+      }
+      .skillset img{
+        height: 70px;
+      }
+      .contactbtn img{
+        height: 50px;
+      }
+      li {
+        list-style: none;
+      }
+      #about{
+        margin-top: 120px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-large margin">
+      <div id="header">
+        <nav id="navbar" class="border fixed split-nav" style="width: 100%;">
+          <div class="nav-brand">
+            <h3><a href="https://www.linkedin.com/in/bhuvenesh-verma-abb76b170/" target="_blank">Bhuvenesh Verma</a></h3>
+          </div>
+          <div class="collapsible">
+            <input id="collapsible1" type="checkbox" name="collapsible1" />
+            <label for="collapsible1">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </label>
+            <div class="collapsible-body">
+              <ul class="inline">
+                <li><a href="#about">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div id="about" class="child-borders margin-large">
+        <div
+          class="card padding-small"
+          style="flex-direction: row; background-color: white;"
+        >
+          <div class="badge" style="width: 20rem;">
+            <img
+              src="./images/IMG_20190124_200926_504.jpg"
+              alt="my picture"
+            />
+          </div>
+          <div
+            class="info padding-small"
+            style="width: 800px; text-align: center;"
+          >
+            <h1>Hey, I'm Bhuvenesh</h1>
+            <h4>
+              A 19 year old Front End developer living in Rohtak, India. I am a
+              Sophomore Computer Science Student. I love programming, travelling
+              and classic rock music. I want to work on things that make a
+              difference.
+            </h4>
+          </div>
+        </div>
+      </div>
+      <div id="skills" class="child-borders margin-large">
+        <div
+          class="card padding-large"
+          style="background-color: white; text-align: center;"
+        >
+          <h2 style="margin-top: 15px;">Tech I'm familiar with.</h2>
+          <div class="skillset row">
+            <div id="html5">
+              <img src="./images/svg/html5.svg" alt="html5" />
+            </div>
+            <div id="css3">
+              <img src="./images/svg/css-3.svg" alt="css3" />
+            </div>
+            <div id="sass">
+              <img src="./images/svg/sass-1.svg" alt="sass" />
+            </div>
+            <div id="javascript">
+              <img src="./images/svg/javascript.svg" alt="javascript" />
+            </div>
+            <div id="vuejs">
+              <img src="./images/svg/vue-9.svg" alt="vuejs" />
+            </div>
+            <div id="vuetify">
+              <img src="./images/svg/vuetify.svg" alt="vuetify" />
+            </div>
+            <div id="nodejs">
+              <img src="./images/svg/nodejs-1.svg" alt="nodejs" />
+            </div>
+            <div id="git">
+              <img src="./images/svg/git-icon.svg" alt="git" />
+            </div>
+            <div id="c++">
+              <img src="./images/svg/c.svg" alt="c++" />
+            </div>
+            <div id="java">
+              <img src="./images/svg/java-4.svg" alt="java" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="contact" class="child-borders margin-large">
+        <div
+          class="card padding-small"
+          style="background-color: white; text-align: center;"
+        >
+          <h2>Wanna contact me?</h2>
+          <p style="font-size: 25px; margin-bottom: 60px;">My inbox is always open.</p>
+
+          <div class="contactbtn row">
+            <div id="gmail">
+              <a href="mailto: vbhuvenesh05@gmail.com"><img src="./images/svg/gmail-icon.svg" alt="gmail"></a>
+            </div>
+            <div id="linkedin">
+              <a href="https://www.linkedin.com/in/bhuvenesh-verma-abb76b170/" target="_blank"><img src="./images/svg/linkedin-icon-2.svg" alt="linkedin"></a>
+            </div>
+            <div id="twitter">
+              <a href="https://twitter.com/bhuvnesssh" target="_blank"><img src="./images/svg/twitter.svg" alt="twitter"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
